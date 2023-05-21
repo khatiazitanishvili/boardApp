@@ -7,7 +7,7 @@ This repository contains a React web application that implements a messaging sys
 - Boards: Users can create boards to organize their messages.
 - Channels: Within each board, users can create multiple channels to categorize their messages.
 - Messages: Users can send and receive messages within each channel.
-<img width="997" alt="Screenshot 2023-05-21 at 18 48 20" src="https://github.com/khatiazitanishvili/boardApp/assets/115110472/ffea1117-64d5-42e3-9e6f-23a5a5ac2f50">
+<img width="500" alt="Screenshot 2023-05-21 at 18 48 20" src="https://github.com/khatiazitanishvili/boardApp/assets/115110472/ffea1117-64d5-42e3-9e6f-23a5a5ac2f50">
 
 # Installation
 1. Fork the project under your Github account.
