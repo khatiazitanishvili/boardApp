@@ -1,35 +1,23 @@
-[![pipeline status](../../../badges/main/pipeline.svg)](../../../pipelines/latest)
+# React Web App
 
-# WE 2, Blatt 11
+This repository contains a React web application that implements a messaging system with boards and channels.
 
-Zur Bearbeitung und Abgabe des Aufgabenblattes gehen Sie wie folgt vor:
+# Features
 
-1. Erstellen Sie einen Fork des Projekts unter Ihrer Gitlab-Kennung.
-2. Setzen Sie die Sichtbarkeit Ihres Forks auf private
-3. Klonen Sie Ihren Fork
-4. Führen Sie `npm install` aus
-5. Bearbeiten Sie die Aufgabe auf dem Branch "main"
-6. 'Committen' Sie alle Ihre Änderungen mindestens nach jeder Teilaufgabe, und 'pushen' Sie sie auf Ihren Fork. Geben Sie sinnvolle Commit-Messages an!
+- Boards: Users can create boards to organize their messages.
+- Channels: Within each board, users can create multiple channels to categorize their messages.
+- Messages: Users can send and receive messages within each channel.
+<img width="997" alt="Screenshot 2023-05-21 at 18 48 20" src="https://github.com/khatiazitanishvili/boardApp/assets/115110472/ffea1117-64d5-42e3-9e6f-23a5a5ac2f50">
 
-Die Tests müssen via `npm test` ausführbar sein. Dies ist initial auch schon so konfiguriert.
+# Installation
+1. Fork the project under your Github account.
+2. Clone your fork
+3. Run `npm install`
 
-Die Pipeline (siehe Badge oben) zeigt Ihnen an, ob Ihr Projekt grundsätzlich für die automatische Korrektur vorbereitet ist.
-
-Für die Abgabe erstellen Sie eine Zip-Datei mittels
-```
-npm run abgabe
-```
-Diese enthält Ihr lokales Repository. Diese Datei müssen Sie dann in Moodle hochladen.
-
-Weiteres zur Bearbeitung und Abgabe finden Sie im Blatt "Modalitäten" unter Moodle.
+The tests must be executable via `npm test`.
 
 # Server
-
-Für Teile der Aufgabe benötigen Sie Ihr Backend. Sie können dieses entweder über VSCode oder einfacher über die Kommandozeile mit `npm start` starten. Richten Sie Ihr Backend so ein, dass es mit HTTPS auf Port 3001 läuft.
-
-**Achtung:** Starten Sie keinen HTTP-Server auf Port 3000 -- dieser Port wird vom Frontend benötigt!
-
-
+You can start projekt either via VSCode or more simply via the command line with `npm start`.
 
 # Getting Started with Create React App
 
@@ -62,23 +50,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-# Lizenz (License)
-
-Die Dateien dürfen nur im Rahmen der oben genannten Vorlesung verwendet werden und sind nur zum persönlichen Gebrauch bestimmt.
